@@ -1,0 +1,2 @@
+Total Cost = 
+SUMX(FILTER('Sales',RELATED('Product'[List Price]) > 250),'Sales'[Order Quantity]*RELATED('Product'[List Price]))
